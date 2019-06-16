@@ -1,8 +1,11 @@
 public class Node 
 {
-	char data;
-	Node next;
+	private char data;
+	private Node next;
 	
+	Node(){
+		this(null);
+	}
 	
 	Node(char data){
 		this.data = data;
