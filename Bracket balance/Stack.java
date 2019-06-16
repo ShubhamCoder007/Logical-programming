@@ -15,7 +15,7 @@ class Stack
 	}
 	
 	public char peek(){
-		return top.data;
+		return top.getData();
 	}
 	
 	public boolean isEmpty(){
