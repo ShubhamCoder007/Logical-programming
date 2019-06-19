@@ -33,11 +33,17 @@ class RevSubArray
 		
 	public static void main(String[] args)throws IOException
 	{
-		int[] a = {1,2,3,4,5,6,7,8,9,10};
+		//int[] a = {1,2,3,4,5,6,7,8,9,10};
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter the sub divisions: ");
 		int k = Integer.parseInt(br.readLine());
+		System.out.println("Enter the size of the array: ");
+		int n = Integer.parseInt(br.readLine());
+		int[] a = new int[n];
+		System.out.println("Enter the elements of the array: ");
+		for(int i = 0 ; i < n; i++)
+			a[i] = Integer.parseInt(br.readLine());
 		
 		System.out.println("The array: ");
 		display(a);
