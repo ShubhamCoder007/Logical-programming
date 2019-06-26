@@ -1,0 +1,6 @@
+Decode a string recursively encoded as count followed by substring.
+Input: str[ ]= "2[ab]"
+Output: abab
+
+Input: str[ ]= "2[a2[b]]"
+Output: abbabb
