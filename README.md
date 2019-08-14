@@ -18,3 +18,5 @@ Enter the value of N: 7
 [4, 5, 5, 5, 5, 5, 5, 5, 6]
 [7, 6, 6, 6, 6, 6, 6, 6, 6]
 
+
+Streak.java | ---->   From a given matrix it will show the number of streaks of same number that are being formed either st right, st down, or diagonally down.
